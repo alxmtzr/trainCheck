@@ -169,7 +169,6 @@ class TrainCheck:
         date = str(date).replace('-', '')[2:]
         # time hour
         hour_now = str(datetime.datetime.now().hour)
-        hour_now = 13
         # evaNo
         departure_evaNo = self.get_station_evaNo(departure)
 
